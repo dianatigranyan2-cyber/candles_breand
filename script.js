@@ -1,12 +1,12 @@
 const products = [
-  { name: 'Բուսական հավաքածու', price: '12 500 ֏', description: 'Բնական ծաղիկներով և բյուրեղներով՝ փոքրիկ բուրավետ պարտեզ։', category: ['decor', 'gift'], image: 'public/photo_2026-11-06_22-08-27.jpg', tag: 'Նոր', stock: 'Առկա է' },
-  { name: 'Դարչին և անիսոն', price: '14 800 ֏', description: 'Ջերմ համեմունքների բույր՝ դանդաղ և հարմարավետ երեկոների համար։', category: ['scented', 'gift'], image: 'public/photo_2026-11-06_22-08-28.jpg', tag: 'Սիրելի', stock: 'Առկա է' },
-  { name: 'Ցիտրուսային պարտեզ', price: '11 500 ֏', description: 'Նարնջի, սոճու և դարչինի թարմ համադրություն։', category: ['scented', 'decor'], image: 'public/photo_2026-11-06_22-08-28 (2).jpg', tag: 'Բուրավետ', stock: 'Սահմանափակ' },
-  { name: 'Տաք երեկո', price: '16 500 ֏', description: 'Մոմի մեղմ լույսը՝ չորացրած նարնջի և փայտի միջավայրում։', category: ['decor', 'scented'], image: 'public/photo_2026-11-06_22-08-29.jpg', tag: 'Նոր', stock: 'Առկա է' },
-  { name: 'Ձմեռային բույր', price: '9 900 ֏', description: 'Բնական համեմունքների նուրբ նոտաներով՝ տաք և հանգիստ մթնոլորտի համար։', category: ['scented', 'gift'], image: 'public/photo_2026-11-06_22-08-32.jpg', tag: 'Բույր', stock: 'Առկա է' },
-  { name: 'Փափուկ առավոտ', price: '15 900 ֏', description: 'Սերուցքային մոմ՝ հանգիստ տան և թեթև լույսի համար։', category: ['gift', 'decor'], image: 'public/photo_2026-11-06_22-08-30.jpg', tag: 'Նվեր', stock: 'Սահմանափակ' },
-  { name: 'Սուրճի պահ', price: '13 500 ֏', description: 'Սուրճի հատիկներով ձևավորված բույր՝ ձեր փոքրիկ դադարի համար։', category: ['scented', 'gift'], image: 'public/photo_2026-11-06_22-08-31 (2).jpg', tag: 'Սիրելի', stock: 'Առկա է' },
-  { name: 'Բյուրեղյա մեղմություն', price: '17 200 ֏', description: 'Բուսական տերևներ, բյուրեղներ և մաքուր, նուրբ կոմպոզիցիա։', category: ['decor', 'gift'], image: 'public/photo_2026-11-06_22-08-32 (2).jpg', tag: 'Հատուկ', stock: 'Սահմանափակ' }
+  { name: 'Բուսական հավաքածու', price: '2 500 ֏', description: 'Բնական ծաղիկներով և բյուրեղներով՝ փոքրիկ բուրավետ պարտեզ։', category: ['decor', 'gift'], image: 'public/photo_2026-11-06_22-08-27.jpg', tag: 'Նոր', stock: 'Առկա է' },
+  { name: 'Դարչին և անիսոն', price: '4 300 ֏', description: 'Ջերմ համեմունքների բույր՝ դանդաղ և հարմարավետ երեկոների համար։', category: ['scented', 'gift'], image: 'public/photo_2026-11-06_22-08-28.jpg', tag: 'Սիրելի', stock: 'Առկա է' },
+  { name: 'Ցիտրուսային պարտեզ', price: '3 500 ֏', description: 'Նարնջի, սոճու և դարչինի թարմ համադրություն։', category: ['scented', 'decor'], image: 'public/photo_2026-11-06_22-08-28 (2).jpg', tag: 'Բուրավետ', stock: 'Սահմանափակ' },
+  { name: 'Տաք երեկո', price: '2 500 ֏', description: 'Մոմի մեղմ լույսը՝ չորացրած նարնջի և փայտի միջավայրում։', category: ['decor', 'scented'], image: 'public/photo_2026-11-06_22-08-29.jpg', tag: 'Նոր', stock: 'Առկա է' },
+  { name: 'Ձմեռային բույր', price: '2 900 ֏', description: 'Բնական համեմունքների նուրբ նոտաներով՝ տաք և հանգիստ մթնոլորտի համար։', category: ['scented', 'gift'], image: 'public/photo_2026-11-06_22-08-32.jpg', tag: 'Բույր', stock: 'Առկա է' },
+  { name: 'Փափուկ առավոտ', price: '4 900 ֏', description: 'Սերուցքային մոմ՝ հանգիստ տան և թեթև լույսի համար։', category: ['gift', 'decor'], image: 'public/photo_2026-11-06_22-08-30.jpg', tag: 'Նվեր', stock: 'Սահմանափակ' },
+  { name: 'Սուրճի պահ', price: '3 500 ֏', description: 'Սուրճի հատիկներով ձևավորված բույր՝ ձեր փոքրիկ դադարի համար։', category: ['scented', 'gift'], image: 'public/photo_2026-11-06_22-08-31 (2).jpg', tag: 'Սիրելի', stock: 'Առկա է' },
+  { name: 'Բյուրեղյա մեղմություն', price: '4 200 ֏', description: 'Բուսական տերևներ, բյուրեղներ և մաքուր, նուրբ կոմպոզիցիա։', category: ['decor', 'gift'], image: 'public/photo_2026-11-06_22-08-32 (2).jpg', tag: 'Հատուկ', stock: 'Սահմանափակ' }
 ];
 
 const grid = document.querySelector('#products-grid');
